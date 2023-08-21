@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="appPackage" value="com.android.calculator2"/>
+  <parameter name="appActivity" value="com.android.calculator2.Calculator"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="automationName" value="UIAutomator2"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <listeners>
+    <listener class-name="FrameworkDemo.Listener"/>
+  </listeners>
+  <test name="Test">
+    <parameter name="appPackage" value="com.android.calculator2"/>
+    <parameter name="appActivity" value="com.android.calculator2.Calculator"/>
+    <parameter name="platformVersion" value="8.0"/>
+    <parameter name="automationName" value="UIAutomator2"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <classes>
+      <class name="mobile.Calculator.TrialTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
